@@ -38,7 +38,7 @@
 #ifdef ARDUINO
 #  define CONFIG_GPS_REFR_PERIOD              1000 // ms
 #else
-#  define CONFIG_GPS_REFR_PERIOD              10 // ms
+#  define CONFIG_GPS_REFR_PERIOD              300 // ms
 #endif
 
 #define CONFIG_GPS_LONGITUDE_DEFAULT          121.442768f
@@ -58,7 +58,7 @@
 
 #define CONFIG_ARROW_THEME_DEFAULT            "default"
 
-#define CONFIG_LIVE_MAP_LEVEL_DEFAULT         7
+#define CONFIG_LIVE_MAP_LEVEL_DEFAULT         14
 
 #define CONFIG_LIVE_MAP_DEBUG_ENABLE          0
 #if CONFIG_LIVE_MAP_DEBUG_ENABLE
